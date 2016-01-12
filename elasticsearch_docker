@@ -1,0 +1,4 @@
+#!/bin/bash
+# run ES with docker
+
+docker run -d -p 9200:9200 elasticsearch:1.7
