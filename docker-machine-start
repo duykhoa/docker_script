@@ -1,0 +1,4 @@
+#!/bin/bash
+
+machine=roomorama
+docker-machine start $machine

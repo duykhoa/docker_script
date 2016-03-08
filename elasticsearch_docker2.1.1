@@ -1,5 +1,4 @@
 #!/bin/bash
 # run ES with docker
 
-PWD=/tmp/es_data   #/Users/kevintran/Workspace/es_data
-docker run -d -p 9200:9200 -v $PWD:/usr/share/elasticsearch/data elasticsearch:2.1.1 elasticsearch
+docker run -d -p 9200:9200 -v /tmp/es_data:/usr/share/elasticsearch/data elasticsearch:2.1.1
