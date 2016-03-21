@@ -1,4 +1,3 @@
-#!/bin/bash
-
 machine=roomorama
 docker-machine start $machine
+eval $(docker-machine $machine)

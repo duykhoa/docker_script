@@ -1,4 +1,4 @@
 #!/bin/bash
 # run ES with docker
 
-docker run -d -p 9200:9200 -v /tmp/es_data:/usr/share/elasticsearch/data elasticsearch:2.1.1
+docker run -it -p 9200:9200 -v /docker_dir/es_data:/usr/share/elasticsearch/data elasticsearch:2.1.1
