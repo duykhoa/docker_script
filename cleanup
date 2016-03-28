@@ -33,4 +33,8 @@ brew cleanup --force -s &>/dev/null
 rm -rfv /Library/Caches/Homebrew/* &>/dev/null
 brew tap --repair &>/dev/null
 
+echo 'Clean the Screenshot....'
+
+rm -rf ~/Desktop/Screen\ Shot*
+
 clear && echo 'Everything is cleaned up :3'
