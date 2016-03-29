@@ -1,3 +1,3 @@
-machine=roomorama
+machine=kaya
 docker-machine start $machine
-eval $(docker-machine $machine)
+eval $(docker-machine env $machine)
