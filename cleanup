@@ -37,4 +37,8 @@ echo 'Clean the Screenshot....'
 
 rm -rf ~/Desktop/Screen\ Shot*
 
+echo 'Clean Download dirty files'
+rm -rf ~/Downloads/*.exe ~/Downloads/*.gz ~/Downloads/*download*
+~/Downloads/Screen\ Shot* ~/Downloads/*pkg ~/Downloads/*.torrent
+
 clear && echo 'Everything is cleaned up :3'

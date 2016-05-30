@@ -1,0 +1,2 @@
+#!/bin/bash
+git push && git checkout master && git push && git push --tag && git checkout develop

@@ -1,2 +1,0 @@
-#!/bin/bash
-docker exec phobo_web_1 bundle exec rspec
